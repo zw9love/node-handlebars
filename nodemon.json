@@ -1,0 +1,21 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    ".svn",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": true,
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "watch": [
+    "app.js",
+    "templates/**/",
+    "static/**/"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "ejs js json css handlebars"
+}
